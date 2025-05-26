@@ -1,0 +1,53 @@
+seed: 2025
+
+#dataset parameters
+test_size: 2000
+val_size: 1000
+batch_size: 512
+
+# neural network parameters
+nn_para:
+  lr: 0.0005
+  lr_decay: 0.5
+  lr_decay_step: 2000 #3000
+  num_epochs: 500
+  hidden_dim: 1024 
+  num_layers: 4
+  dropout: 0.0
+
+penalty:
+  obj_weight: 1.0
+  eq_pen_weight: 50.0
+  ineq_pen_weight: 50.0
+
+adaptive_penalty:
+  obj_weight: 1.0
+  eq_pen_weight_max: 500.0
+  ineq_pen_weight_max: 100.0
+  eq_pen_weight: 30.0
+  ineq_pen_weight: 30.0
+  increasing_rate: 2.0
+
+FSNet:
+  obj_weight: 1.0
+  dist_weight: 5.0
+  eq_pen_weight: 10.0
+  ineq_pen_weight: 10.0
+  val_tol: 1.0e-6
+  decreasing_tol_step: 100
+  memory_size: 30   #convex 10 is okay, nonconvex: 20-30
+  max_iter: 50
+  max_diff_iter: 30
+  scale: 1000
+
+DC3:
+  obj_weight: 1.0
+  eq_pen_weight: 10.0
+  ineq_pen_weight: 10.0
+  corr_lr: 1.0e-7
+  max_corr_steps: 10
+  corr_momentum: 0.5
+
+projection:
+  obj_weight: 1.0
+  dist_weight: 3.0

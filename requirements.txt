@@ -1,0 +1,6 @@
+PyYAML==6.0.2
+torch==2.6.0+cu126
+cvxpy==1.6.5
+cvxpylayers==0.1.9
+casadi==3.6.7
+qpth
