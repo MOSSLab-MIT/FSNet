@@ -17,8 +17,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
-
 ## 🎓 Usage
 
 ### Training and Test
@@ -48,4 +46,4 @@ python main.py \
   * `qcqp` (Quadratically Constrained Quadratic Program)
   * `socp` (Second-Order Cone Program)
 * And see `main.py` for more relevant flags.
----
+
