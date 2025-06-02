@@ -33,7 +33,7 @@ FSNet:
   dist_weight: 5.0
   eq_pen_weight: 10.0
   ineq_pen_weight: 10.0
-  val_tol: 1.0e-6
+  val_tol: 1.0e-7
   decreasing_tol_step: 100
   memory_size: 30   #convex 10 is okay, nonconvex: 20-30
   max_iter: 50
