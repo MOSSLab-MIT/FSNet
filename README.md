@@ -14,6 +14,18 @@ Efficiently solving constrained optimization problems is crucial for numerous re
   <img src="figures\diagram.png" alt="FSNet Diagram" width="800"/>
 </p>
 
+
+If you find this repository helpful in your publications, please consider citing our paper.
+```bash
+@article{nguyen2025fsnet,
+    title={FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees}, 
+    author={Hoang T. Nguyen and Priya L. Donti},
+    year={2025},
+    journal={arXiv preprint arXiv:2506.00362},
+}
+```
+
+
 ## 🚀 Installation
 
 Install dependencies:
