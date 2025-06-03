@@ -3,7 +3,7 @@ This repository is by
 [Hoang T. Nguyen](https://www.linkedin.com/in/hoang-nguyen-971519201/) and 
 [Priya L. Donti](https://www.priyadonti.com)
  and contains source code to reproduce the experiments in our paper 
- "FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees".
+ ["FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees"](https://arxiv.org/abs/2506.00362).
 
 
 ## Abstract
