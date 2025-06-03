@@ -51,3 +51,7 @@ python main.py \
   * `socp` (Second-Order Cone Program)
 * And see `main.py` for more relevant flags.
 
+Example:
+```bash
+python main.py --method FSNet --prob_type convex --prob_name qp
+```
